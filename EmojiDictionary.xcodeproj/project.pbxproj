@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E53193951E777BD100C72532 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53193941E777BD100C72532 /* Emoji.swift */; };
+		E53193991E777F9D00C72532 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53193981E777F9D00C72532 /* DetailedViewController.swift */; };
 		E54F2A7E1E776BD20077844C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54F2A7D1E776BD20077844C /* AppDelegate.swift */; };
 		E54F2A801E776BD20077844C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54F2A7F1E776BD20077844C /* ViewController.swift */; };
 		E54F2A831E776BD20077844C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E54F2A811E776BD20077844C /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E53193941E777BD100C72532 /* Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		E53193981E777F9D00C72532 /* DetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
 		E54F2A7A1E776BD20077844C /* EmojiDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E54F2A7D1E776BD20077844C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E54F2A7F1E776BD20077844C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				E54F2A7D1E776BD20077844C /* AppDelegate.swift */,
+				E53193941E777BD100C72532 /* Emoji.swift */,
 				E54F2A7F1E776BD20077844C /* ViewController.swift */,
+				E53193981E777F9D00C72532 /* DetailedViewController.swift */,
 				E54F2A811E776BD20077844C /* Main.storyboard */,
 				E54F2A841E776BD20077844C /* Assets.xcassets */,
 				E54F2A861E776BD20077844C /* LaunchScreen.storyboard */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E53193951E777BD100C72532 /* Emoji.swift in Sources */,
 				E54F2A801E776BD20077844C /* ViewController.swift in Sources */,
+				E53193991E777F9D00C72532 /* DetailedViewController.swift in Sources */,
 				E54F2A7E1E776BD20077844C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +513,7 @@
 				E54F2AA41E776BD20077844C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E54F2AA51E776BD20077844C /* Build configuration list for PBXNativeTarget "EmojiDictionaryTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				E54F2AA71E776BD20077844C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E54F2AA81E776BD20077844C /* Build configuration list for PBXNativeTarget "EmojiDictionaryUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				E54F2AAA1E776BD20077844C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
